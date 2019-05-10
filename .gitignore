@@ -1,2 +1,7 @@
 # PyCharm settings files
 .idea/
+
+.DS_Store
+
+# video files
+.mp4
