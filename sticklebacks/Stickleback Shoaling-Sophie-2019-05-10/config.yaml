@@ -9,6 +9,8 @@ project_path: /Users/user/Desktop/Local/Mackerel/fish-tracking/sticklebacks/Stic
 
 # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
+  ? /Users/user/Desktop/Local/Mackerel/fish-tracking/sticklebacks/Stickleback Shoaling-Sophie-2019-05-10/videos/sticklebacks1.avi
+  : crop: 0, 1920, 0, 1080
 bodyparts:
 - Hand
 - Finger1

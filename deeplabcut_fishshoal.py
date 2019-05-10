@@ -1,15 +1,15 @@
 import deeplabcut
 
+# Start a new project:
 task = "Stickleback Shoaling"  # Enter the name of your experiment Task
 experimenter = "Sophie"  # Enter the name of the experimenter
-video=["tracking_videos/sticklebacks1.mp4"]  # Enter the paths of your videos you want to grab frames from.
+video = ["tracking_videos/sticklebacks1.avi"]  # Enter the paths of your videos you want to grab frames from.
 
 path_config_file = deeplabcut.create_new_project(task,
                                                  experimenter,
                                                  video,
                                                  working_directory="sticklebacks",
-                                                 copy_videos=False)  # change the working directory to where you want the folders created.
+                                                 copy_videos=True)
 
-# The function returns the path, where your project is.
-# You could also enter this manually (e.g. if the project is already created and you want to pick up, where you stopped...)
-# path_config_file = '/home/Mackenzie/Reaching/config.yaml' # Enter the path of the config file that was just created from the above step (check the folder)
+# Pick up from where you left off:
+# path_config_file = "/Users/user/Desktop/Local/Mackerel/fish-tracking/sticklebacks/Stickleback Shoaling-Sophie-2019-05-10/config.yaml"
