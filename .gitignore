@@ -4,4 +4,4 @@
 .DS_Store
 
 # video files
-.mp4
+*.mp4
